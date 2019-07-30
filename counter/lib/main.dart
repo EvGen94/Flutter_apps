@@ -5,11 +5,22 @@ import 'package:flutter/material.dart';
 // }
 void main() => runApp(MyApp());
 
-class MyApp extends StatelessWidget {
+class MyApp extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    // TODO: implement createState
+    return MyAppState();
+  }
+}
+
+class MyAppState extends State<MyApp> {
   var indexQuestion = 0;
 
   void answerQuestion() {
-    indexQuestion = indexQuestion + 1 ;
+    setState(() {
+      indexQuestion = indexQuestion + 1;
+    });
+
     print(indexQuestion);
   }
 
