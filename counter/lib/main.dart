@@ -10,6 +10,7 @@ import "./quiz.dart";
 // }
 void main() => runApp(MyApp());
 
+
 class MyApp extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -50,7 +51,12 @@ class _MyAppState extends State<MyApp> {
   ];
   var _indexQuestion = 0;
   var _totalScore = 0 ;
-
+  void _reSetQuiz(){
+    setState(() {
+       _indexQuestion = 0;
+     _totalScore = 0 ;
+    });
+  }
   void _answerQuestion(int score) {
 _totalScore += score ;
 
@@ -78,7 +84,7 @@ _totalScore += score ;
                 indexQuestion: _indexQuestion,
                 questions: _questions,
               )
-            : Result(_totalScore),
+            : Result(_totalScore,_reSetQuiz),
         //: Center(
         //   child: Text("You did it !"),
         // ),
