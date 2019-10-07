@@ -31,9 +31,9 @@ class _MyAppState extends State<MyApp> {
       'questionText': 'What\'s your favorite office?',
       'answers': [
         {'text': 'Akademika Tupoleva street 15', 'score': 4},
-        {'text': 'Nizhnyaya Krasnoselskaya street 14', 'score': 12},
-        {'text': 'Domodedovo sk1', 'score': 8},
-        {'text': 'Domodedovo sk3', 'score': 10},
+        {'text': 'Nizhnyaya Krasnoselskaya street 14', 'score': 8},
+        {'text': 'Domodedovo sk1', 'score': 10},
+        {'text': 'Domodedovo sk3', 'score': 12},
       ],
     },
     {
