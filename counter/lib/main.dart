@@ -19,30 +19,30 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   final _questions = const [
     {
-      'questionText': 'What\'s your favorite color?',
+      'questionText': 'What\'s your favorite company?',
       'answers': [
-        {'text': 'Black', 'score': 15},
-        {'text': 'Red', 'score': 8},
-        {'text': 'Green', 'score': 5},
-        {'text': 'White', 'score': 2},
+        {'text': 'Samsonopt', 'score': 15},
+        {'text': 'Shopingator', 'score': 8},
+        {'text': 'Officemag', 'score': 5},
+        {'text': 'Komus', 'score': 2},
       ],
     },
     {
-      'questionText': 'What\'s your favorite animal?',
+      'questionText': 'What\'s your favorite office?',
       'answers': [
-        {'text': 'Rabbit', 'score': 4},
-        {'text': 'Snake', 'score': 12},
-        {'text': 'Elephant', 'score': 4},
-        {'text': 'Lion', 'score': 10},
+        {'text': 'Akademika Tupoleva street 15', 'score': 4},
+        {'text': 'Nizhnyaya Krasnoselskaya street 14', 'score': 12},
+        {'text': 'Domodedovo sk1', 'score': 8},
+        {'text': 'Domodedovo sk3', 'score': 10},
       ],
     },
     {
-      'questionText': 'Who\'s your favorite instructor?',
+      'questionText': 'Which\'s your favorite department ?',
       'answers': [
-        {'text': 'Max', 'score': 3},
-        {'text': 'Max', 'score': 3},
-        {'text': 'Max', 'score': 3},
-        {'text': 'Max', 'score': 3},
+        {'text': 'Supply chain management and logostics technology assurance', 'score': 3},
+        {'text': 'Supply chain management and logostics technology assurance', 'score': 3},
+        {'text': 'Supply chain management and logostics technology assurance', 'score': 3},
+        {'text': 'Supply chain management and logostics technology assurance', 'score': 3},
       ],
     },
   ];
