@@ -13,7 +13,7 @@ class Result extends StatelessWidget {
     } else if (resultScore <= 12) {
       resultText = 'Pretty likeable!';
     } else if (resultScore <= 16) {
-      resultText = 'You are ... strange?!';
+      resultText = 'You are ...?!';
     } else {
       resultText = 'You are so bad!';
     }
